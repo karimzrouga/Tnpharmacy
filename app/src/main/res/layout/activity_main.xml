@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:gravity="center"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/homelog">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="150sp"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:textColor="#3e3e3e"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="50sp"
+        >
+
+        <Button
+            android:id="@+id/singup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/up" />
+
+        <Button
+            android:id="@+id/singin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/in" />
+    </LinearLayout>
+
+
+</LinearLayout>
